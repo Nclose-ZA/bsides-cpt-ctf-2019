@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+a:link {color:#FFFFFF;text-decoration:none;}
+a:hover {border-bottom:5px solid #FF00B4;}
+a:active {color:#790002;} 
+a:visited {color:purple; text-decoration:line-through;} /*I couldn't get the strikethrough image to appear on clicked links*/
+
+body {
+        background-image: url("siteimages/pattern_darkwingduck.jpg");
+        background-color: #00FFF1;
+        font-family: "Courier New", Courier, monospace, sans-serif;
+    font-size:100%;
+        color:black;
+        cursor:url("siteimages/slime.png"),auto; /*I wish I could get this cursor to work ~sadface */
+}
+p       {
+        color:black;
+    text-align:center;
+}
+h1 {
+        color:#00FFFF;
+        text-align:center;
+        text-decoration:underline;
+        text-transform:uppercase;
+    font-size:100px;
+}
+h3 {
+    color:#FF0099;
+    text-align:left;
+    font-size:20px;
+}
+img { 
+   background:#FF8800;
+   border:dotted 20px#00FFFF #DF489D;
+}
+#mainText { /* I try to switch these colors/layouts up on each html page's CSS */
+        cursor:auto;
+        position:relative;
+        margin-bottom:50px;
+        padding:25px;
+        width: 800px; 
+        background-color:#00FF33;
+        margin: 50px auto;
+        text-align: left;
+        border:#FF00FF 20px double;
+}
+
+/*why doesn't this work?! */
+.custom {
+   cursor: url("siteimages/slime.png"), auto;
+}
+
+.blink {
+    -webkit-animation: blink .75s linear infinite;
+    -moz-animation: blink .75s linear infinite;
+    -ms-animation: blink .75s linear infinite;
+    -o-animation: blink .75s linear infinite;
+    animation: blink .75s linear infinite;
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
