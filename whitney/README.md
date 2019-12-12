@@ -1,4 +1,6 @@
 # whitney
+## description
+You're supposed to find the whereabouts of a stolen motorboat. The boat is called 'Iseo' and was fitted with a tracker. Requests can be sent to the tracker using a networked service (address shown below), however we are unaware of which protocols the service uses and do not have any documentation on it.
 ## flag
 location of the iseo: `25N77W`
 ## build
