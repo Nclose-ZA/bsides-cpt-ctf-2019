@@ -1,0 +1,4 @@
+dovecot_config=/etc/dovecot/dovecot.conf
+pid_file=/var/run/dovecot/master.pid
+init_script=dovecot
+dovecot=/usr/sbin/dovecot

@@ -1,0 +1,9 @@
+$ttl 38400
+33.168.192.in-addr.arpa.	IN	SOA	ns.ctf.local. admin.ctf.local. (
+			1574244548
+			10800
+			3600
+			604800
+			38400 )
+33.168.192.in-addr.arpa.	IN	NS	ns.ctf.local.
+25	IN	PTR	webserver19.ctf.local.

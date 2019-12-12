@@ -1,0 +1,25 @@
+$ttl 38400
+ctf.local.	IN	SOA	ns.ctf.local. admin.ctf.local. (
+			1574243927
+			10800
+			3600
+			604800
+			38400 )
+ctf.local.	IN	NS	ns.ctf.local.
+ns.ctf.local.	IN	A	127.0.0.1
+webserver19.ctf.local.	IN	A	192.168.33.212
+giveme.ctf.local.	IN	A	192.168.33.11
+enigma.ctf.local.	IN	A	192.168.33.12
+ebook.ctf.local.	IN	A	192.168.33.13
+agent407.ctf.local.	IN	A	192.168.33.14
+origin.ctf.local.	IN	A	192.168.33.15
+whitney.ctf.local.	IN	A	192.168.33.16
+diffie.ctf.local.	IN	A	192.168.33.17
+ronrivest.ctf.local.	IN	A	192.168.33.18
+darkbins.ctf.local.	IN	A	192.168.33.19
+gillette.ctf.local.	IN	A	192.168.33.20
+prototype.ctf.local.	IN	A	192.168.33.21
+ifindzyou.ctf.local.	IN	A	192.168.33.22
+disnmap.ctf.local.	IN	A	192.168.33.23
+remindme.ctf.local.	IN	A	192.168.33.24
+risnotforrace.ctf.local.	IN	A	192.168.33.25

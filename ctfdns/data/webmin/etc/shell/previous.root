@@ -1,0 +1,5 @@
+ls
+pwd
+netstat -pant
+host webserver.ctf.local
+host webserver.ctf.local 127.0.0.1

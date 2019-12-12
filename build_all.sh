@@ -1,0 +1,17 @@
+docker build -t giveme giveme
+docker build -t enigma enigma
+docker build -t ebook ebook
+docker build -t agent407 agent407
+docker build -t origin origin
+docker build -t whitney whitney
+docker build -t diffie diffie
+docker build -t ronrivest ronrivest
+docker build -t darkbins darkbins
+docker build -t gillette gillette
+docker build -t prototype prototype
+docker build -t ifindzyou ifindzyou
+docker build -t disnmap disnmap
+docker build -t remindme remindme
+docker build -t risnotforrace risnotforrace
+docker build -t risnotforrace2 risnotforrace2
+docker build -t ctfdns ctfdns 
